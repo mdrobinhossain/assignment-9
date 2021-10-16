@@ -1,0 +1,21 @@
+.homeImg{
+    width:24%;
+    height:250px;
+    background-color:white;
+    border-radius:10px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    text-decoration: none;
+}
+.homeImg>img{
+    width:70%;
+
+}
+.homeImg>p{
+    text-decoration: none;
+    font-size: 25px;
+    color:black;
+}

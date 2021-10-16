@@ -1,0 +1,42 @@
+.topbar{
+    height:50px;
+    width:100%;
+    z-index: 20;
+    position:absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width:80%;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menuItem{
+    text-decoration: none;
+    color:black;
+    padding:5px;
+    margin:5px;
+}
+.logo{
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    border:none;
+    border-radius: 5px;
+    color:white;
+    background-color: tomato;
+    padding:8px 15px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
